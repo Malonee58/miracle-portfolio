@@ -1,0 +1,25 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .logo {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+      }
+      .mp {
+        font-size: 400px; /* way bigger */
+        fill: url(#grad);
+      }
+      .name {
+        font-size: 120px; /* much bigger */
+        fill: url(#grad);
+      }
+    </style>
+  </defs>
+  
+  <text x="50" y="400" class="logo mp">MP</text>
+  <text x="50" y="550" class="logo name">miracle philip</text>
+</svg>
