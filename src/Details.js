@@ -20,12 +20,12 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/P1.jpg";
+import projectImage2 from "./assets/projects/Pr2.jpg";
+import projectImage3 from "./assets/projects/Pr3.jpg";
+import projectImage4 from "./assets/projects/Pr4.jpg";
+import projectImage5 from "./assets/projects/Pr5.jpg";
+import projectImage6 from "./assets/projects/Pr6.jpg";
 
 // Logos
 export const logos = {
@@ -113,58 +113,56 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
 	{
-		title: "Project title 1",
+		title: "Modern Portfolio Interface",
 		image: projectImage1,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
-		previewLink: "https://google.com",
-		githubLink: "https://github.com",
+		description: `A dynamic portfolio application built with React, featuring reusable components, smooth navigation, and interactive UI elements. Designed with a modular structure for easy scalability and maintenance.`,
+
+		techstack: "React.js, JavaScript, Tailwind CSS",
+		previewLink: "https://malonee58.github.io/miracle-portfolio/",
+		githubLink: "https://github.com/Malonee58/miracle-portfolio",
 	},
 	{
-		title: "Project title 2",
+		title: "Simple Next.js Personal Landing Page",
 		image: projectImage2,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
-		previewLink: "https://google.com",
-		githubLink: "https://github.com",
+		description: `A minimal personal portfolio built with Next.js and TypeScript, focused on fast performance, clean structure, and straightforward presentation of projects and contact details.`,
+
+		techstack: "Next.js, React, TypeScript, CSS",
+		previewLink: "https://lucky-philip.vercel.app/",
+		githubLink: "https://github.com/Malonee58/LuckyPhilip",
 	},
 	{
-		title: "Project title 3",
+		title: "Shoply – Online Shop Template",
 		image: projectImage3,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
-		previewLink: "https://google.com",
-		githubLink: "https://github.com",
+		description: `A modern e-commerce interface built with React, featuring product listings, category sections, and a clean, user-friendly layout. Designed as a reusable template for small online stores.`,
+
+		techstack: "React.js, CSS, JavaScript",
+		previewLink: "https://malonee58.github.io/shoply/",
+		githubLink: "https://github.com/Malonee58/shoply",
 	},
 	{
-		title: "Project title 4",
+		title: "YouTube UI Replica",
 		image: projectImage4,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
+		description: `A static mockup of the YouTube homepage built with HTML and CSS. Recreated the core layout, thumbnails, and navigation elements to practice modern layout techniques.`,
+		techstack: "HTML, CSS",
 		previewLink: "https://google.com",
 		githubLink: "https://github.com",
 	},
 	{
-		title: "Project title 5",
+		title: "Spotify UI Replica",
 		image: projectImage5,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
+		description: `A visual replica of the Spotify interface created with pure CSS. Focused on layout accuracy, spacing, and typography to closely match the original music streaming UI.`,
+		techstack: "HTML, CSS",
 		previewLink: "https://google.com",
 		githubLink: "https://github.com",
 	},
 	{
-		title: "Project title 6",
+		title: "Responsive Personal Landing Page",
 		image: projectImage6,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: "HTML/CSS, JavaScript",
-		previewLink: "https://google.com",
-		githubLink: "https://github.com",
+		description: `A clean, responsive personal landing page designed to showcase profile details, services, and contact information. Built with a focus on performance, accessibility, and cross-device compatibility using core web technologies.`,
+
+		techstack: "HTML, CSS, JavaScript",
+		previewLink: "https://malonee58.github.io/miracleportfolio/",
+		githubLink: "https://github.com/Malonee58/miracleportfolio",
 	},
 ];
 
