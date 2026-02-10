@@ -26,6 +26,7 @@ import projectImage3 from "./assets/projects/Pr3.jpg";
 import projectImage4 from "./assets/projects/Pr4.jpg";
 import projectImage5 from "./assets/projects/Pr5.jpg";
 import projectImage6 from "./assets/projects/Pr6.jpg";
+import projectImage7 from "./assets/projects/Pr8.jpg";
 
 // Logos
 export const logos = {
@@ -163,6 +164,16 @@ export const projectDetails = [
 		techstack: "HTML, CSS, JavaScript",
 		previewLink: "https://malonee58.github.io/miracleportfolio/",
 		githubLink: "https://github.com/Malonee58/miracleportfolio",
+	},
+	{
+		title: "Movie Explorer",
+		image: projectImage7,
+		description: `Movie Explorer is a responsive React web application built to strengthen API integration and front-end development skills. It allows users to search movies, view details, and manage favorites using real-time API data.`,
+
+		techstack:
+			"React (Vite), React Router, Context API, CSS, REST Movie API, pnpm, GitHub Pages",
+		previewLink: "https://malonee58.github.io/Movie-explorer/",
+		githubLink: "https://github.com/Malonee58/Movie-explorer",
 	},
 ];
 
