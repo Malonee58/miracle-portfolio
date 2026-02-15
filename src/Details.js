@@ -1,4 +1,4 @@
-// Enter all your detials in this file
+// Enter all your details in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo3.svg";
