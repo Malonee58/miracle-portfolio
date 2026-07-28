@@ -1,50 +1,73 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import SectionHeading from "../Components/SectionHeading";
+import useReveal from "../hooks/useReveal";
+import {
+	personalDetails,
+	workDetails,
+	eduDetails,
+	aboutME,
+	aboutMe,
+} from "../Details";
+
+function RevealSection({ children, className = "" }) {
+	const ref = useReveal();
+	return (
+		<section ref={ref} className={`reveal ${className}`}>
+			{children}
+		</section>
+	);
+}
 
 function About() {
-  return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
-      <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          About Me
-        </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
-      </section>
-      <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Work Experience
-        </h1>
-        {React.Children.toArray(
-          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        )}
-      </section>
-      <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Education
-        </h1>
-        {React.Children.toArray(
-          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        )}
-      </section>
-    </main>
-  );
+	return (
+		<main className="container mx-auto max-width section pb-28">
+			<RevealSection>
+				<SectionHeading eyebrow=" about me" title="A little about how I work" />
+				<p className="text-body py-8 lg:max-w-3xl leading-relaxed text-lg">
+					{aboutMe.about}
+				</p>
+			</RevealSection>
+
+			<RevealSection className="pt-16">
+				<SectionHeading eyebrow=" experience" title="Work Experience" />
+				<div className="pt-10 max-w-3xl">
+					{React.Children.toArray(
+						workDetails.map(
+							({ Position, Company, Location, Type, Duration }) => (
+								<Work
+									position={Position}
+									company={Company}
+									location={Location}
+									type={Type}
+									duration={Duration}
+								/>
+							),
+						),
+					)}
+				</div>
+			</RevealSection>
+
+			<RevealSection className="pt-20">
+				<SectionHeading eyebrow=" education" title="Education" />
+				<div className="pt-10 max-w-3xl">
+					{React.Children.toArray(
+						eduDetails.map(
+							({ Position, Company, Location, Type, Duration }) => (
+								<Work
+									position={Position}
+									company={Company}
+									location={Location}
+									type={Type}
+									duration={Duration}
+								/>
+							),
+						),
+					)}
+				</div>
+			</RevealSection>
+		</main>
+	);
 }
 
 export default About;

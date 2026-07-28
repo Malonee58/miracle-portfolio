@@ -27,7 +27,7 @@ import projectImage4 from "./assets/projects/Pr4.jpg";
 import projectImage5 from "./assets/projects/Pr5.jpg";
 import projectImage6 from "./assets/projects/Pr6.jpg";
 import projectImage7 from "./assets/projects/Pr8.jpg";
-
+import projectImage8 from "./assets/projects/Pr9.jpg";
 // Logos
 export const logos = {
 	logogradient: logogradient,
@@ -41,7 +41,16 @@ export const personalDetails = {
 	img: profile,
 	about: `I’m a frontend developer focused on building clean, responsive, and user-friendly web interfaces. I turn designs into high-performance experiences using modern web technologies. Passionate about detail, accessibility, and continuous learning.`,
 };
+// Enter your Personal Details here
+export const aboutMe = {
+	about: `I'm a frontend developer who transforms ideas into fast, responsive, and engaging digital experiences. My process begins with understanding your vision, business goals, target audience, and project requirements. I believe that every successful website starts with clear communication, so I take the time to gather the necessary details before writing a single line of code.
 
+Once I have a complete understanding of the project, I plan the user experience, choose the right technologies, and build clean, scalable, and maintainable interfaces that work seamlessly across all devices and browsers. I prioritize performance, accessibility, responsiveness, and intuitive user interactions to ensure every visitor enjoys a smooth experience.
+
+My workflow includes requirement gathering, planning, development, testing, optimization, and final deployment. I also welcome feedback throughout the process, making refinements until the final product aligns with your vision and delivers real value to your users. When a project requires server-side functionality, I enjoy collaborating closely with backend developers to ensure seamless integration between the frontend and backend, resulting in reliable, cohesive, and high-quality applications.
+
+My main focus is creating modern, visually appealing, and high-performing web applications that not only look great but also provide meaningful user experiences. I continuously refine my skills, embrace new technologies, and enjoy working as part of a team to deliver solutions that are reliable, scalable, and built for long-term success.`,
+};
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
 	linkdein: "https://www.linkedin.com/in/miraclephilip58/",
@@ -53,25 +62,25 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
 	{
-		Position: "Frontend Web Developer",
-		Company: `BlueWave Tech`,
+		Position: "Frontend Web Developer (Remote)",
+		Company: `TechSprout Solutions`,
 		Location: "Lagos Nigeria",
-		Type: "Contract",
-		Duration: "March 2021 - June 2022",
-	},
-	{
-		Position: "Web Developer (Remote)",
-		Company: `Company Name here`,
-		Location: "Toronto Canada",
 		Type: "Internship",
-		Duration: "July 2022 – November 2023",
+		Duration: "May 2025 – August 2025",
 	},
 	{
-		Position: "Web Developer/ICT Support Officer",
-		Company: `Unander Nigeria Limited`,
-		Location: "Utako, Abuja",
-		Type: "Part Time",
-		Duration: "March 2024 – Present",
+		Position: "Frontend Developer (Remote)",
+		Company: `NovaWeb Solutions`,
+		Location: "Leeds, United Kingdom",
+		Type: "Internship",
+		Duration: "September 2025 – December 2025",
+	},
+	{
+		Position: "Freelance Frontend & Web Developer",
+		Company: `Self-Employed`,
+		Location: "Abuja",
+		Type: "Freelance",
+		Duration: "March 2025 – Present",
 	},
 ];
 
@@ -79,10 +88,10 @@ export const workDetails = [
 export const eduDetails = [
 	{
 		Position: "Frontend Development",
-		Company: "Udemy, YouTube, Google, Medium",
+		Company: "Udemy, YouTube, Google, TS Academy",
 		Location: "Online",
 		Type: "Full Time",
-		Duration: "Jan 2022 - Present",
+		Duration: "2024 - Present",
 	},
 	{
 		Position: "Bachelor of Science in Political Science",
@@ -174,6 +183,17 @@ export const projectDetails = [
 			"React (Vite), React Router, Context API, CSS, REST Movie API, pnpm, GitHub Pages",
 		previewLink: "https://malonee58.github.io/Movie-explorer/",
 		githubLink: "https://github.com/Malonee58/Movie-explorer",
+	},
+	{
+		title: "Icreate Africa – Printing & Branding Company",
+		image: projectImage8,
+		description: `A modern and responsive React-based website developed for Icreate Africa, a printing and branding company. The platform showcases the company's services, portfolio, and brand identity through a clean, engaging interface with smooth animations, responsive layouts, and an intuitive user experience designed to attract and convert potential clients.`,
+
+		techstack:
+			"React.js, JavaScript (ES6+), Tailwind CSS, CSS3, EmailJS, React Icons",
+
+		previewLink: "https://icreate-africa.vercel.app/",
+		githubLink: "https://github.com/Malonee58/IcreateAfrica",
 	},
 ];
 
